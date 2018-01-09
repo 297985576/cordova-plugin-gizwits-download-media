@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="cordova-gizwits-download-media" 
+      version="1.0.0" >
+    <name>Gizwits download media</name>
+    <js-module name="GizDownloadMedia" src="www/gizDownloadMedia.js">
+        <clobbers target="cordova.plugins.gizDownloadMedia" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="GizDownloadMedia">
+                <param name="ios-package" value="GizDownloadMedia" />
+            </feature>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>This application needs photo library access</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+            <string>This application needs permission to write photos</string>
+        </config-file>
+        <header-file src="src/ios/GizDownloadMedia.h" />
+        <source-file src="src/ios/GizDownloadMedia.m" />
+        <header-file src="src/ios/GizDownloadVideoTool.h" />
+        <source-file src="src/ios/GizDownloadVideoTool.m" />
+    </platform>
+</plugin>

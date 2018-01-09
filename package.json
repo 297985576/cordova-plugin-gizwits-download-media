@@ -1,0 +1,44 @@
+{
+  "name": "cordova-gizwits-download-media",
+  "version": "1.0.0",
+  "description": "gizwits download media Cordova Plugin",
+  "cordova": {
+    "id": "cordova-gizwits-download-media",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "gizwits",
+    "gizwits plugin",
+    "gizdownload",
+    "gizdownloadmedia",
+    "giz download media",
+    "gizmedia",
+    "giz media",
+    "download",
+    "download media",
+    "cordova plugin",
+    "cordova download",
+    "cordova download media",
+    "cordovadownload",
+    "cordova media",
+    "cordovamedia",
+    "cordovadownloadmedia",
+    "ios download",
+    "ios download media",
+    "ios media",
+    "ios download plugin",
+    "download plugin"
+  ],
+  "author": "Gizwits Inc.",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
