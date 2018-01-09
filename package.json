@@ -35,10 +35,10 @@
   "license": "Apache 2.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/297985576/cordova-plugin-gizwits-download-media.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/297985576/cordova-plugin-gizwits-download-media/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/297985576/cordova-plugin-gizwits-download-media#readme"
 }
