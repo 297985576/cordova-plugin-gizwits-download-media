@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="cordova-gizwits-download-media" 
-      version="1.0.0" >
+      version="1.0.1" >
     <name>Gizwits download media</name>
     <js-module name="GizDownloadMedia" src="www/gizDownloadMedia.js">
         <clobbers target="cordova.plugins.gizDownloadMedia" />
